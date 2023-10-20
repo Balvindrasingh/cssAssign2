@@ -1,0 +1,79 @@
+/* Font Families */
+body, p {
+    font-family: 'Your Custom Font 1', sans-serif;
+}
+
+/* Font Styling */
+h1 {
+    font-size: 50px;
+    font-family: 'Chosen Font', cursive; 
+    font-weight: bold;
+    text-align: center;
+    color: #e7efe4;
+}
+
+p:hover {
+    color: rgb(180, 216, 108);
+}
+p {
+    font-size: 30px;
+    line-height: 1.5;
+    color: #302e2e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+/* Page Styling */
+body {
+    background: url('dee.jpeg') center/cover #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+
+/* Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+p {
+    animation: bounce 2s infinite;
+}
+/* Import the "Great Vibes" font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* .lyrics Styling */
+.lyrics {
+    margin: 20px;
+    padding: 20px;
+    background: url('black.jpg') center/cover #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);*/
+    position: relative;
+    width: 60%;
+    height: 80%;
+    left: 20%;
+    top: 20%;
+    font-family: 'Great Vibes', cursive; 
+}
+
+.lyrics p {
+    position: relative;
+    z-index: 2;
+    color: #f7c3be;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 24px; 
+    font-weight: bold; 
+}
